@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 //import { POST } from "../../utils/axios";
 import axios from "axios";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 function SignIn() {
   const [id, setId] = useState("");
   const [password, setPassword] = useState("");
